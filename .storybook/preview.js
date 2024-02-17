@@ -7,7 +7,8 @@ import "@fontsource/material-icons";
 
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { withThemeFromJSXProvider } from "@storybook/addon-themes";
-import theme from "../src/theme";
+
+import { lightTheme, darkTheme, theme } from "../src/theme";
 
 export const preview = {
   parameters: {
@@ -25,8 +26,8 @@ export const preview = {
 export const decorators = [
   withThemeFromJSXProvider({
     themes: {
-      light: theme,
-      dark: theme,
+      light: lightTheme,
+      dark: darkTheme,
     },
     defaultTheme: "light",
     Provider: ThemeProvider,
