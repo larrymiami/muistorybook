@@ -33,9 +33,14 @@
     "@storybook/nextjs": "^7.6.16",
     "@storybook/react": "^7.6.16",
     "@storybook/test": "^7.6.16",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "eslint-plugin-storybook": "^0.8.0",
-    "storybook": "^7.6.16"
+    "install": "^0.13.0",
+    "storybook": "^7.6.16",
+    "typescript": "^5.3.3"
   }
 }
