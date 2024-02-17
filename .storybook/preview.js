@@ -25,8 +25,8 @@ export const preview = {
 export const decorators = [
   withThemeFromJSXProvider({
     themes: {
-      light: theme.colorSchemes.light,
-      dark: theme.colorSchemes.dark,
+      light: theme,
+      dark: theme,
     },
     defaultTheme: "light",
     Provider: ThemeProvider,
